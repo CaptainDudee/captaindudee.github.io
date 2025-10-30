@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="nn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Min Nettside</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi første nettside</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Velkommen til mi nettside</h1>
-    <nav>
-      <ul>
-        <li><a href="#om">Om meg</a></li>
-        <li><a href="#tenester">Tenester</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>Velkomen til mi nettside!</h1>
+    </header>
 
-  <main>
-    <section id="om">
-      <h2>Om meg</h2>
-      <p>Her kan du skrive litt om deg sjølv eller prosjektet ditt.</p>
-    </section>
+    <main>
+        <h2>Om meg</h2>
+        <p>Hei! Dette er mi første nettside. Her kan du skrive litt om deg sjølv, hobbyar eller prosjekt.</p>
 
-    <section id="tenester">
-      <h2>Tenester</h2>
-      <ul>
-        <li>...</li>
-        <li>...</li>
-        <li>...</li>
-      </ul>
-    </section>
+        <h2>Lenkjer</h2>
+        <ul>
+            <li><a href="https://www.vg.no" target="_blank">VG</a></li>
+            <li><a href="https://www.nrk.no" target="_blank">NRK</a></li>
+            <li><a href="https://openai.com" target="_blank">OpenAI</a></li>
+        </ul>
+    </main>
 
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <form>
-        <label for="namn">Namn:</label>
-        <input type="text" id="namn" name="namn" required>
-
-        <label for="melding">Melding:</label>
-        <textarea id="melding" name="melding" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 H. Alle rettar reservert.</p>
-  </footer>
+    <footer>
+        <p>Laga av [Ditt namn] © 2025</p>
+    </footer>
 </body>
 </html>
+
